@@ -1,3 +1,5 @@
+![title image](./fig/title.png)
+
 # House Price Prediction in King County, USA
 
 This is my first small project at the Data S>cience bootcampt [neuefische](neuefische.de), Fall 2020. The main focus of the project is a Exploratory Data Analysis including Data Cleaning and Data Exploration. Some Feature Engineering has been done, and a small scale Linear Regression Model is fit to a train data set and then later tested on a test data set. 
