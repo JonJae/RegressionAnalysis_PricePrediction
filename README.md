@@ -12,11 +12,11 @@ The data set itself cofers roughly 20.000 data points, representing house sales 
 
 A few insights, more in the Juipyter Notebook: 
 
-- price is directly proportional to sqft of living. Most  houses got a living area of 1000 to 5000 sqf
+- `price` is directly proportional to `sqft_living`. Most  houses got a living area of 1000 to 5000 sqf
 - a the median price of a house with basement is $100,000 greater than a house without basement
 - Latitude influences the price. As the Seattle area has a great north-south stretch, prices tend to be lower father away from the center
-- sqft_living, soft_above and soft_basement have a strong correlation and tend to overfit the model  - watch for multicollinearity. 
-- houses with 3 bedrooms are most common in King county while houses with 1,7 bedrooms are very uncommon
+- `sqft_living`, `soft_above` and `soft_basement` have a strong correlation and tend to overfit the model  - watch for multicollinearity. 
+- houses with 3 bedrooms are most common in King County while houses with 1,7 bedrooms are very uncommon
 
 When we look at the geolocation relative to the center of Seattle, we find that prices are high closer to the city, as illustrated in the following graphic. 
 
